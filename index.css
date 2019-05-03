@@ -1,0 +1,39 @@
+main {
+    height: 800px;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    background: url("bg.jpg") no-repeat;
+}
+
+main .text {
+    /* position: absolute;
+    top: 15%;
+    left: 15%; */
+    float: left;
+    margin: 10rem;
+    width: 30%;
+    text-align: center;
+    color: #000;
+}
+
+.last {
+    padding-top: 3rem;
+    font-size: 150%;
+}
+
+.images {
+    float: right;
+    width: 40%;
+}
+
+main .img1 {
+    width: 150px;
+    position: relative;
+    top: 6rem;
+    left: 10rem;
+}
+
+main .img2 {
+    width: 450px;
+}
